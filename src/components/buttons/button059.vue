@@ -1,6 +1,6 @@
 <template>
   <div class="flex">
-    <a href="#0" class="bttn">More</a>
+    <a href="#" onclick="return false;" class="bttn">More</a>
   </div>
 </template>
 
