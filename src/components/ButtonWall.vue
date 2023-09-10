@@ -61,7 +61,7 @@
     </div>
     <div class="h-56 overflow-scroll px-3 py-2 text-left leading-10">
       This is just a wall of buttons I collected from the internet for no
-      specific reason<br />
+      specific reason.<br />
       You can click on your favourite button style on this wall, let others
       see!<br />
       <div class="underline font-semibold">
