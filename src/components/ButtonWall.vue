@@ -83,8 +83,7 @@
         target="_blank"
         >github repo</a
       >.<br />
-      By the way, the counters are updated in real time, try it in two different
-      browsers!
+      By the way, the counters are updated in real time, try it out!
     </div>
 
     <button
