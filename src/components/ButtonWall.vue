@@ -123,7 +123,7 @@ const components = componentFiles.keys().map((filename) => {
 });
 
 // shuffle the buttons
-// shuffle(components);
+shuffle(components);
 
 export default {
   name: "ButtonWall",
@@ -132,7 +132,7 @@ export default {
       loadedComponents: components,
       allButtonRecords: [],
       showError: false,
-      showInfo: false,
+      showInfo: true,
       error_message: "What error? No error!",
       pb: null,
     };
