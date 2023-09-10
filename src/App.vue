@@ -15,11 +15,12 @@ export default {
 
 <style>
 html {
-  background-color: white;
+  background-color: black;
+  background: rgb(48, 49, 50);
+  background-image: radial-gradient(white 1px, transparent 0);
+  background-size: 40px 40px;
+  background-position: -19px -19px;
 }
 body {
-  background-size: 40px 40px;
-  background-image: linear-gradient(to right, grey 1px, transparent 1px),
-    linear-gradient(to bottom, grey 1px, transparent 1px);
 }
 </style>
