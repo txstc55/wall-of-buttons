@@ -66,12 +66,25 @@
       see!<br />
       <div class="underline font-semibold">
         Disclaimer: I did not make any of those buttons, I just copy and pasted
-        them
+        them.
       </div>
-      If you like any of the button styles, you can find them here: <br />
-      where I put the original link in the file<br />
+      If you like any of the button styles, you can find them here:
+      <a
+        href="https://github.com/txstc55/wall-of-buttons/tree/main/src/components/buttons"
+        class="underline italic"
+        target="_blank"
+        >Github link</a
+      >, where I put the original link in the file.<br />
       If you want to add any of your button styles, you can simply send a pull
-      request at the github repo
+      request or open an issue at the
+      <a
+        href="https://github.com/txstc55/wall-of-buttons"
+        class="underline italic"
+        target="_blank"
+        >github repo</a
+      >.<br />
+      By the way, the counters are updated in real time, try it in two different
+      browsers!
     </div>
 
     <button
