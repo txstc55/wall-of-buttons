@@ -1,0 +1,90 @@
+<template>
+  <button>Button</button>
+</template>
+
+<script>
+// this button is from:
+// https://codepen.io/franknoirot/pen/xxJRNOW
+export default {
+  name: "button11",
+};
+</script>
+
+<style scoped>
+button {
+  --s: 0.25em; /* control the wave*/
+
+  padding: 0.4em 0.5em;
+  background-color: #bf4d28;
+  color: #fff;
+  --_s: calc(var(--s) * 4) 51% repeat-x;
+  --_r: calc(1.345 * var(--s)) at left 50%;
+  --_g1: #000 99%, #0000 101%;
+  --_g2: #0000 99%, #000 101%;
+  --mask: radial-gradient(var(--_r) top calc(var(--s) * 1.9), var(--_g1))
+      calc(50% - 2 * var(--s) - var(--_i, 0px)) 0 / var(--_s),
+    radial-gradient(var(--_r) top calc(var(--s) * -0.9), var(--_g2))
+      calc(50% - var(--_i, 0px)) var(--s) / var(--_s),
+    radial-gradient(var(--_r) bottom calc(var(--s) * 1.9), var(--_g1))
+      calc(50% - 2 * var(--s) + var(--_i, 0px)) 100% / var(--_s),
+    radial-gradient(var(--_r) bottom calc(var(--s) * -0.9), var(--_g2))
+      calc(50% + var(--_i, 0px)) calc(100% - var(--s)) / var(--_s);
+  -webkit-mask: var(--mask);
+  mask: var(--mask);
+  clip-path: polygon(
+    calc(2 * var(--s) - var(--_i, 0px)) 0,
+    calc(100% - var(--_i, 0px)) 0,
+    calc(100% - var(--s)) 50%,
+    calc(100% - 2 * var(--s) + var(--_i, 0px)) 100%,
+    calc(0% + var(--_i, 0px)) 100%,
+    var(--s) 50%
+  );
+  cursor: pointer;
+  transition: 0.35s;
+}
+button.alt {
+  clip-path: polygon(
+    calc(0% - var(--_i, 0px)) 0,
+    calc(100% - 2 * var(--s) - var(--_i, 0px)) 0,
+    calc(100% - var(--s)) 50%,
+    calc(100% + var(--_i, 0px)) 100%,
+    calc(2 * var(--s) + var(--_i, 0px)) 100%,
+    var(--s) 50%
+  );
+}
+button:hover {
+  --_i: calc(2 * var(--s));
+}
+button.alt:hover {
+  --_i: calc(-2 * var(--s));
+}
+button:active {
+  background-image: linear-gradient(#0004 0 0);
+}
+button:focus-visible {
+  -webkit-mask: none;
+  clip-path: none;
+  outline-offset: 0.1em;
+  padding-block: 0.2em;
+  margin-block: 0.2em;
+  transition: 0s;
+}
+
+body {
+  height: 100vh;
+  margin: 0;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+  place-content: center;
+  background: #f6f7bd;
+}
+button {
+  font-family: system-ui, sans-serif;
+  font-weight: bold;
+  font-size: 4rem;
+  margin: 0;
+  cursor: pointer;
+  border: none;
+}
+</style>

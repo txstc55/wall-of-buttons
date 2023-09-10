@@ -1,0 +1,13 @@
+<template>
+</template>
+
+<script>
+// this button is from:
+// https://codepen.io/franknoirot/pen/xxJRNOW
+export default {
+  name: "button0",
+};
+</script>
+
+<style scoped>
+</style>
