@@ -1,19 +1,7 @@
-# buttons
+# Wall of Buttons
 
-## Project setup
-```
-npm install
-```
+I created this project because there are just too many god damn button styles.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+You can view the project [here](https://txstc55.github.io/wall-of-buttons/).
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+If you want to add a new button style, either open a pull request or submit an issue and tell me to go to this link. Alternatively, just email me (it's not that hard to find my email)
