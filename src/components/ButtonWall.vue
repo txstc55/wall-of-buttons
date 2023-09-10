@@ -36,7 +36,7 @@
     </div>
 
     <button
-      class="bottom-0 absolute -translate-x-1/2 px-3 py-1 border-2 border-white rounded-sm text-xl hover:scale-105 ease-in-out duration-300 mb-4 text-white"
+      class="bottom-0 absolute -translate-x-1/2 px-3 py-1 rounded-sm text-xl hover:scale-105 ease-in-out duration-300 mb-4 text-white"
       @click="showError = false"
     >
       OK
@@ -44,7 +44,7 @@
   </div>
   <button
     class="fixed bottom-2 right-2 shadow-sm w-14 h-14 font-mono text-lg rounded-full border-4 border-black bg-white hover:scale-105 ease-in-out duration-300 font-bold underline hover:text-2xl"
-    @click="showInfo = true"
+    @click="showInfo = !showInfo"
   >
     i
   </button>
