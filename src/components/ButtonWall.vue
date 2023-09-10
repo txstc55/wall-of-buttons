@@ -57,7 +57,7 @@
     "
   >
     <div class="text-black text-2xl mx-4 font-semibold">
-      THERE ARE JUST TOO MANY GOD DAMN BUTTON STYLES!
+      THERE ARE JUST WAY TOO MANY GOD DAMN BUTTON STYLES!
     </div>
     <div class="h-56 overflow-scroll px-3 py-2 text-left leading-10">
       This is just a wall of buttons I collected from the internet for no
