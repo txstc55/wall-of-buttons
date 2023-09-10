@@ -53,7 +53,7 @@
       'fixed bg-white w-1/3 min-w-fit h-96 text-center select-none rounded-sm backdrop-blur-xl py-4 border-4 border-black font-mono ease-in-out duration-1000 ' +
       (showInfo
         ? 'scale-100 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 opacity-100'
-        : 'scale-0 left-full top-full opacity-0 -translate-x-0 -translate-y-0')
+        : 'scale-0 left-full top-full opacity-0 -translate-x-1/2 -translate-y-1/2')
     "
   >
     <div class="text-black text-2xl mx-4 font-semibold">
